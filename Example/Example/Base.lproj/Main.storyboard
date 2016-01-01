@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8sh-Zv-Z4P" customClass="BIZActivityButton">
+                                <rect key="frame" x="240" y="270" width="120" height="60"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.89856825309999999" green="0.97829497909999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="7YN-xQ-3Ar"/>
+                                    <constraint firstAttribute="height" constant="60" id="8Ec-qH-xgx"/>
+                                </constraints>
+                                <state key="normal" title="Send any data">
+                                    <color key="titleColor" red="1" green="0.21074137030000001" blue="0.019607843140000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V1B-K8-3I4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PlO-cx-Tko" customClass="BIZActivityButton">
+                                <rect key="frame" x="240" y="170" width="120" height="60"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.89856825309999999" green="0.97829497909999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="llN-zu-OsE"/>
+                                    <constraint firstAttribute="height" constant="60" id="yQW-mG-oPL"/>
+                                </constraints>
+                                <state key="normal" title="Process">
+                                    <color key="titleColor" red="1" green="0.21074137030000001" blue="0.019607843140000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u3d-tU-rET"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="8sh-Zv-Z4P" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="3eY-gl-IsL"/>
+                            <constraint firstItem="8sh-Zv-Z4P" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="V3s-y5-gzU"/>
+                            <constraint firstItem="PlO-cx-Tko" firstAttribute="centerX" secondItem="8sh-Zv-Z4P" secondAttribute="centerX" id="ory-IE-gux"/>
+                            <constraint firstItem="8sh-Zv-Z4P" firstAttribute="top" secondItem="PlO-cx-Tko" secondAttribute="bottom" constant="40" id="xuP-Cq-gzD"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="340" y="389"/>
+        </scene>
+    </scenes>
+</document>
