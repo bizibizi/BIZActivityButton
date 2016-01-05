@@ -11,7 +11,7 @@ BIZActivityButton is a subclass of UIButton with activity indicator that can be 
 # Installation
 
 ### Manually
-- Copy ```BIZActivityButton``` folder to your project 
+- Copy ```Classes``` folder to your project 
 
 ### From CocoaPods:
 ```objective-c
